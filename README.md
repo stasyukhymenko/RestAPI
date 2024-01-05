@@ -413,3 +413,32 @@ module.exports = {
     deleteUser,
 };
 ```
+
+# Тестування працездатності системи
+
+## Запуск Сервера
+
+![Server Start](media/server_start.png)
+
+## Тестування для користувача
+
+### GET /users
+
+![GET /users](./media/get_users.png)
+
+### GET /users/:id
+
+![GET /users/:id](./media/get_user_id.png)
+
+### POST /users
+
+![POST /users](./media/post_users.png)
+
+### PUT /users/:id
+
+![PUT /users/:id](./media/put_test.png)
+
+### DELETE /users/:id
+
+![DELETE /users/:id](./media/delete_1.png)
+![DELETE /users/:id](./media/delete_2.png)
